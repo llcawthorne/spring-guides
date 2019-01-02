@@ -10,3 +10,6 @@ Weird thing is, the test works with ben/benspassword.  I'm going to try turning 
 Nope.  That didn't fix it either.  Weird.  I don't see any CSRF token being passwed by their default login
 form.  Oh well.  Not sure what is wrong with this one.  Tests pass as ben/benspassword but real app
 doesn't take it.  Tests fail to authenticate with invalid/invalidpassword.
+
+TODO: Compare this to your Spring Security course LDAP implementation and see
+if you can figure out what's going wrong here.
