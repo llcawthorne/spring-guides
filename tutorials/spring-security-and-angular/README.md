@@ -1,0 +1,3 @@
+# spring-security-and-angular #
+
+I couldn't get this to work as described in the blogposts.  Not sure what the problem is.  I'm still getting basic authentication popups when try to browse to the homepage.  Supposedly the service in the angular app is supposed to add header information so I don't get those, but it isn't working for some reason.  Also, I had to do a lot more permitAll's in my SecurityConfig class to get basic auth popups to go away on initial loading of the app.  I've got a new version of Angular and a newer version of Spring Boot that they are using in the tutorial, so I suppose something might have changed.  When I check out their repo, their sample code seems to work fine.
